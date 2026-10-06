@@ -1,0 +1,17 @@
+{
+  "supported": false,
+  "snapshot_id": null,
+  "console_id": null,
+  "ra_games_with_achievements": 0,
+  "status_totals": {
+    "local": 0,
+    "local_other_platform": 0,
+    "dat_only": 0,
+    "nointro_db_only": 0,
+    "unmatched": 0
+  },
+  "by_category": {},
+  "local_roms_with_achievements": 0,
+  "missing_by_category": {},
+  "note": "RetroAchievements does not support this platform; no snapshot is stored"
+}

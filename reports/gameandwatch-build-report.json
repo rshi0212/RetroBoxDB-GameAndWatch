@@ -1,0 +1,207 @@
+{
+  "platform": "gameandwatch",
+  "started_at": "2026-10-06T13:15:26.483667+00:00",
+  "engine_version": "4.0.0",
+  "dat_sets": [
+    {
+      "id": 1,
+      "name": "Nintendo - Game & Watch (Parent-Clone)",
+      "version": "20260512-134045"
+    },
+    {
+      "id": 2,
+      "name": "Nintendo - Game & Watch (Parent-Clone)",
+      "version": "20260512-134245"
+    }
+  ],
+  "completed_stages": [
+    "dat_import",
+    "rom_import",
+    "scan_diff_catalog",
+    "nointro",
+    "packages",
+    "retroachievements",
+    "game_names"
+  ],
+  "rom_import": {
+    "directories": [
+      "/mnt/MyShare/No-Intro/Nintendo - Game & Watch"
+    ],
+    "families": 51,
+    "family_assignment": {
+      "family_from_dat_or_db": 54
+    },
+    "errors": [],
+    "groups": 1,
+    "raw_group_bytes": 181248,
+    "stored_group_bytes": 129313,
+    "zips": 54,
+    "sidecar_files": 0,
+    "seconds": 0
+  },
+  "scan": {
+    "1": {
+      "match": 53,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 1
+    },
+    "2": {
+      "match": 53,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 1
+    }
+  },
+  "dat_diff": {
+    "1->2": {
+      "unchanged": 54
+    }
+  },
+  "catalog": {
+    "games": 51,
+    "releases": 53,
+    "old_dat_games_linked": 53,
+    "rom_release_links": 53
+  },
+  "nointro": {
+    "snapshot_id": 1,
+    "version": "20260512-134045",
+    "archives": 53,
+    "files": 54,
+    "files_with_local_payload": 53,
+    "sources": 55,
+    "dumplog_rows": 53,
+    "dat_links": 108,
+    "archive_release_links": 53,
+    "hardware_assertions": 17,
+    "dumplog_status": {
+      "trusted_unverified": 51,
+      "verified": 2
+    },
+    "anomalies": {}
+  },
+  "packages": {
+    "packages_by_dat_set": {
+      "1": 52,
+      "2": 52
+    },
+    "errors": []
+  },
+  "retroachievements": {
+    "supported": false,
+    "note": "RetroAchievements has no console for this platform"
+  },
+  "game_names": {
+    "source_name": "Nintendo - Game & Watch.csv",
+    "source_sha256": "b550cd0c899ba48c65018d9940aad8f17a22f0d2a4dde2ef0a8c5b295eab42a1",
+    "normalization_version": "parentheses-whitespace-casefold-v1",
+    "import_id": 1,
+    "matching_version": "game-qualified-title-v1",
+    "rows": 53,
+    "rows_with_chinese": 53,
+    "unique_chinese_names": 46,
+    "normalized_titles": 46,
+    "matched_rows": 53,
+    "matched_rows_with_chinese": 53,
+    "matched_releases": 53,
+    "releases_with_chinese": 53,
+    "matched_games": 51,
+    "matched_roms": 53,
+    "matched_links": 53,
+    "ambiguous_links": 0,
+    "ambiguous_rows": 0,
+    "unmatched_rows": 0,
+    "unresolved_rows": [],
+    "multiple_translation_keys": [],
+    "matched_rows_by_method": {
+      "exact_title": 53
+    }
+  },
+  "audit": {
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_errors": [],
+    "objects_checked": 57,
+    "archive_plans_checked": 58,
+    "compression_groups_checked": 1,
+    "historical_zip_objects": 58,
+    "ok": true,
+    "errors": []
+  },
+  "stats": {
+    "counts": {
+      "files": 168,
+      "objects": 115,
+      "chunks": 57,
+      "roms": 53,
+      "dat_sets": 2,
+      "dat_roms": 108,
+      "transformations": 0,
+      "packages": 104,
+      "media": 0
+    },
+    "storage": {
+      "logical_content_bytes": 262781,
+      "historical_zip_bytes_not_stored": 177621,
+      "unique_raw_chunk_bytes": 262781,
+      "stored_chunk_bytes": 147725,
+      "header_body_recipes": 0,
+      "zip_plans": 58,
+      "file_occurrences": 168,
+      "catalog_objects": 115
+    },
+    "dat_coverage": [
+      {
+        "dat_set_id": 1,
+        "status": "matched",
+        "count": 53
+      },
+      {
+        "dat_set_id": 1,
+        "status": "unmatched",
+        "count": 1
+      },
+      {
+        "dat_set_id": 2,
+        "status": "matched",
+        "count": 53
+      },
+      {
+        "dat_set_id": 2,
+        "status": "unmatched",
+        "count": 1
+      }
+    ],
+    "codecs": [
+      {
+        "codec": "group",
+        "blocks": 53,
+        "raw_bytes": 181248,
+        "stored_bytes": 0
+      },
+      {
+        "codec": "lzma",
+        "blocks": 4,
+        "raw_bytes": 81533,
+        "stored_bytes": 18412
+      }
+    ],
+    "storage_schema_version": 4,
+    "compression_groups": {
+      "groups": 1,
+      "raw_bytes": 181248,
+      "stored_bytes": 129313
+    },
+    "platform": "gameandwatch",
+    "solid_groups": {
+      "groups": 1,
+      "raw_bytes": 181248,
+      "stored_bytes": 129313
+    }
+  },
+  "finished_at": "2026-10-06T13:15:27.548355+00:00",
+  "seconds": 2,
+  "database_bytes": 3653632
+}
